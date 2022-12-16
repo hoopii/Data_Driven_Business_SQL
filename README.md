@@ -3,45 +3,39 @@
 
 ![grafik](../main/picture_repository.png)
  
+## Ficticious Use Case
+The eCommerce company  we are working for is exploring an expansion to the Brazilian market. The problem for the company we're doing analysis for is the lack of knowledge of such a market. The company doesn’t have ties with local providers, package delivery services, or customer service agencies. Creating these ties and knowing the market would take a lot of time, while the board of directors from "Eniac" (the company we do data analysis for) has demanded the expansion to happen within the next year.
+
+Here comes Magist (which is our fictitious name for Olist, a real Brazilian online marketplace that shares sales data on Kaggle, see description on dataset below). 
+Magist is a Brazilian Software as a Service company that offers a centralized order management system to connect small and medium-sized stores with the biggest Brazilian marketplaces. Magist is already a big player and allows small companies to benefit from its economies of scale: it has signed advantageous contracts with the marketplaces and with the Post Office, thus reducing the cost of fees and, most importantly, the bureaucracy involved to get things started.
+
+But not everyone in the company is happy moving on with this. There are two main concerns:
+- Eniac’s catalog is 100% tech products, and heavily based on Apple-compatible accessories. It is not clear that the marketplaces Magist works with are a good place for these high-end tech products.
+- Among Eniac’s efforts to have happy customers, fast deliveries are key. The delivery fees resulting from Magist’s deal with the public Post Office might be cheap, but at what cost? Are deliveries fast enough? 
+
+Thankfully, Magist has allowed Eniac to access a snapshot of their database. The data might have the answer to these concerns.
+
 ## Goal
-Create user-based, item-based and model-based movie recommender systems as well as simple popularity rankings inspired by Netflix recommendations using a real life dataset of nearly 10.000 movies with more than 100.000 user ratings  
-
-![grafik](../main/Screenshot-2022-01-28-101727.png)
-
-
+Main business questions the company board is searching an answer for in the data are: 
+1. is the brazilian online marketplace "Magist" a good fit for high-end tech products, especially for Apple-compatible accessories? 
+2. Are deliveries fast enough?
 
 ## Dataset
-- GroupLens, which gathered this data, is a research group in the Department of Computer Science and Engineering at the University of Minnesota. Since its inception in 1992, GroupLens's research projects have explored a variety of fields including:   
-  - recommender systems  
-  - online communities  
-  -  mobile and ubiquitious technologies   
-  -  digital libraries    
-  -  local geographic information system   
-- This and other GroupLens data sets are publicly available for download at http://grouplens.org/datasets/ 
-- GroupLens Research operates a [movie recommender](http://movielens.org) based on collaborative filtering, MovieLens, which is the source of these data
-- The dataset (ml-latest-small) describes 5-star rating and free-text tagging activity from [MovieLens](http://movielens.org), a movie recommendation service. 
--  It contains 100.836 ratings and 3683 tag applications across 9.742 movies.     
-- These data were created by 610 users between March 29, 1996 and September 24, 2018. This dataset was generated on September 26, 2018.  
---> for more information on the dataset look at the [description file in the repository](../main/description_dataset.txt)  
+- The dataset is made available by [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)and has been provided by [Olist](https://olist.com/pt-br/), the largest department store in Brazilian marketplaces. 
+- Olist (=Magist in our fictitious Use Case) connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners. See more on our website: www.olist.com
+- The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. 
+- Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates. 
+- For more informataion like data Schema look at the [Kaggle-page](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) directly.
+
+
 
 ## Skills/Methods
-- Pivot-Tables in Python/Pandas
-- Apply cosine_similarity function in Scikit-Learn
-- Compute weighted averages
-- Work with "surprise", a Python scikit for recommender systems. 
-- Apply matrix factorization algorithms for model based recommenders
-- Tune model with GridSearch and Cross-Validation
-- Automate the process using Python functions
+- MySQL (Workbench)
 
-## Basic Steps 
-Based on the example User-based Collaborative Filtering: 
-1. Create a user-item matrix as data structure for further processing
-2. Replace Missing Values
-3. Compute Similarities between Users
-4. Turn Similarities into Weights using the weighted average
-5. Estimate missing Ratings
-6. Create a function that takes the users userId, and a number (n) and outputs the n most recommended movies based on the cosine similarity of other users.
-7. Evaluate the recommendation system
+## Basic Steps for this project
+1. Create the database out of the Database dump file by importing in MySQL Workbench
+
+
 
 ## Files in this repository
 - [Description of the dataset](../main/description_dataset.txt)
