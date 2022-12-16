@@ -1,7 +1,7 @@
 # Data-Driven Businesses with SQL & Tableau
 ### Help an e-commerce company make a critical business decision by exploring data in SQL and visualizing it interactively in a Tableau dashboard.
 
-![grafik](..main/picture_repository.png)
+![grafik](../main/picture_repository.png)
  
 ## Goal
 Create user-based, item-based and model-based movie recommender systems as well as simple popularity rankings inspired by Netflix recommendations using a real life dataset of nearly 10.000 movies with more than 100.000 user ratings  
