@@ -1,3 +1,5 @@
 to do in this repo: 
-- finish the readme-file
-- go through the whole repo 
+- investigate further
+- make more graphs in tableau
+- add some skills 
+- hint at some results in the Readme-file
