@@ -19,9 +19,10 @@ Thankfully, Olist has allowed Eniac to access a snapshot of their database. The 
 1. Is the brazilian online marketplace "Magist" a good fit for high-end tech products, especially for Apple-compatible accessories? 
 2. Are deliveries fast enough?
 
-**More specific business questions coming from different members of the company are:** 
+**More specific business questions coming from different members of the company are:**  
+
 In relation to the products:
-- What categories of tech products does Magist have?
+- Which categories of tech products does Magist have?
 - How many products of these tech categories have been sold (within the time window of the database snapshot)? What percentage does that represent from the overall number of products sold?
 - What’s the average price of the products being sold?
 - Are expensive tech products popular?
@@ -77,15 +78,12 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - order_payments: customers can pay an order with different methods of payment. Every time a payment is made a row is inserted here. An order can be paid in installments, which means that a single order can have many separate payments.
 - order_reviews: customers can leave multiple reviews corresponding to the order they placed.
 
-
 ## Skills/Methods
 - SQL Queries with MySQL (Workbench):    
-   - Aggregations and GROUP BY 
-   - CASE WHEN 
-   - 
 - JOIN multiple tables 
-
-
+- translate business terms into tables, columns and aggregations.
+- transpose business challenge into analytical questioning
+- Visualisazions with Tableau
 
 ## Basic Steps for this project
 1. Create the database out of the Database dump file by importing in MySQL Workbench
@@ -98,7 +96,9 @@ After an order is placed, a customer still needs to pay for it, then they can wr
   - What's the price for the most expensive and cheapes products? 
   - What's the highest payment values for single orders? 
 3. Answer specific business questions coming from different company members
- 
+4.
+
+## Some results: 
 
 
 
