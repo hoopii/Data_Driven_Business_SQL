@@ -38,12 +38,6 @@ In relation to the delivery time:
 - How many orders are delivered on time vs orders delivered with a delay?
 - Is there any pattern for delayed orders, e.g. big products being delayed more often?
 
-
-
-
-
-
-
 ## Dataset
 - The dataset is made available by [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)and has been provided by [Olist](https://olist.com/pt-br/), the largest department store in Brazilian marketplaces. 
 - Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners. See more on our website: www.olist.com
@@ -96,11 +90,8 @@ After an order is placed, a customer still needs to pay for it, then they can wr
   - What's the price for the most expensive and cheapes products? 
   - What's the highest payment values for single orders? 
 3. Answer specific business questions coming from different company members
-4.
-
-## Some results: 
-
-
+4. Perform queries on answering the companies two main business challenges
+5. Make first visualisation in Tableau 
 
 ## Files in this repository
 - [Description of the dataset](../main/description_dataset.txt)
