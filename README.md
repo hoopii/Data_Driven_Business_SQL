@@ -75,8 +75,8 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 ## Skills/Methods
 - SQL Queries with MySQL (Workbench):    
 - JOIN multiple tables 
-- translate business terms into tables, columns and aggregations.
-- transpose business challenge into analytical questioning
+- Translate business terms into tables, columns and aggregations.
+- Transpose business challenge into analytical questioning
 - Visualisazions with Tableau
 
 ## Basic Steps for this project
@@ -94,9 +94,8 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 5. Make first visualisation in Tableau 
 
 ## Files in this repository
-- [Description of the dataset](../main/description_dataset.txt)
-- [Notebook with the code for all recommendation systems](../main/movies_recommender_systems.ipynb)
-- [Data: Movies](../main/movies.csv)
-- [Data: Ratings](../main/ratings.csv)
-- [Data: Links](../main/links.csv)  
-- [Data: Tags](../main/tags.csv)  
+- [dump file for setting up the database](../main/magist_dump.sql)
+- [SQL queries:explore dataset](../main/explore_dataset.sql)
+- [SQL queries:answer specific business questions](../main/business_questions.sql)
+- [5 minute presentation on answering main business challenge](../main/magist_presentation.odp)
+- [folder with csv files for all tables](../main/csv_files)
