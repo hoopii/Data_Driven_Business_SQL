@@ -94,7 +94,7 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 5. Make first visualisation in Tableau 
 
 ## Files in this repository
-- [dump file for setting up the database](../main/magist_dump.sql)
+- [Dump file for setting up the database](../main/magist_dump.sql)
 - [SQL queries:explore dataset](../main/explore_dataset.sql)
 - [SQL queries:answer specific business questions](../main/business_questions.sql)
 - [5 minute presentation on answering main business challenge](../main/magist_presentation.odp)
