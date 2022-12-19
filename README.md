@@ -12,14 +12,21 @@ But not everyone in the company is happy moving on with this. There are two main
 - Eniac’s catalog is 100% tech products, and heavily based on Apple-compatible accessories. It is not clear that the marketplaces Olist works with are a good place for these high-end tech products.
 - Among Eniac’s efforts to have happy customers, fast deliveries are key. The delivery fees resulting from Olist's deal with the public Post Office might be cheap, but at what cost? Are deliveries fast enough? 
 
-Thankfully, Olist has allowed Eniac to access a snapshot of their database. The data might have the answer to these concerns.
+Thankfully, Olist has allowed Eniac to access a snapshot of their database. The data might have the answer to these concerns.  
 
 ## Goal
-Main business questions the board of directors is expecting data based answers:   
+**Main business questions the board of directors is expecting data based answers for:**   
 1. Is the brazilian online marketplace "Magist" a good fit for high-end tech products, especially for Apple-compatible accessories? 
 2. Are deliveries fast enough?
 
-More specific business questions: 
+**More specific business questions coming from different members of the company are:** 
+In relation to the products:
+- What categories of tech products does Magist have?
+- How many products of these tech categories have been sold (within the time window of the database snapshot)? What percentage does that represent from the overall number of products sold?
+- What’s the average price of the products being sold?
+- Are expensive tech products popular?
+
+
 
 
 
@@ -31,12 +38,54 @@ More specific business questions:
 - For more informataion like data Schema look at the [Kaggle-page](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) directly.
 - Note: The files in this repository are named after "Magist" and not Olist, but the data is exactly the same. I used the data in the context of my Data Science Bootcamp at WBS Coding School, where they prepared a use case for us in which the brazilian eCommerce company has been named "Magist" instead of "Olist.
 
+## Database Schema
+
+![grafik](../main/Schema.png)
+
+## Basic description of tables and their relations:  
+
+**Let’s focus first of all on some tables that are just collections of items, independent of any transaction.  
+Unless a new customer makes a purchase, a new product is released, or a new seller is registered, these tables remain unchanged during a transaction:**
+- products: contains a row for each product available for sale.
+- product_category_name_translation: contains a relation of product categories in its original language, Portuguese, and English.
+ - sellers: contains a row for each one of the sellers registered in the marketplace.
+ - customers:  contains a row for each customer that has made a purchase.
+ - geo: contains a relation between zip codes, coordinates, and states, to obtain more precise information about sellers and customers.
+ 
+**The following tables are the ones responsible for capturing a purchase:**
+- orders: every time that an order is placed, a row is inserted in this table. Even if the order contains multiple products, here it will be reflected as a single row with an order_id that uniquely identifies it.
+- order_items: this table contains one row for each distinct product of an order.
+
+The relationship between orders and order_items can be better understood with an example. Imagine a customer purchases a Macbook Pro, two dongles, and a keyboard. The following rows would be added to each table:
+![grafik](https://user-images.githubusercontent.com/100354393/208524075-64983ff3-b529-490f-9886-3c0bffd09c42.png)
+As we can see, the orders table contains only one row per order, in which information for the whole order like its status and delivery date is stored. But, as each order can contain multiple products, which can come from a different seller, have a different price, etc., the order_items table stores this information.
+
+After an order is placed, a customer still needs to pay for it, then they can write a review. This information is stored in the corresponding tables:
+- order_payments: customers can pay an order with different methods of payment. Every time a payment is made a row is inserted here. An order can be paid in installments, which means that a single order can have many separate payments.
+- order_reviews: customers can leave multiple reviews corresponding to the order they placed.
+
 
 ## Skills/Methods
-- SQL Queries with MySQL (Workbench)
+- SQL Queries with MySQL (Workbench):    
+   - Aggregations and GROUP BY 
+   - CASE WHEN 
+   - 
+- JOIN multiple tables 
+
+
 
 ## Basic Steps for this project
 1. Create the database out of the Database dump file by importing in MySQL Workbench
+2. Explore the dataset and the relations of the tables:    
+  - How many orders have been placed at the marketplace? 
+  - What are the relations of delivered, cancelled and unavailable orders? 
+  - Is the platform growing, are orders going up? 
+  - How many prodcuts and which product category do they offer the most?
+  - Which products have been ordered the most?
+  - What's the price for the most expensive and cheapes products? 
+  - What's the highest payment values for single orders? 
+3. Answer specific business questions coming from different company members
+ 
 
 
 
