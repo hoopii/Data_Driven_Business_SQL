@@ -1,5 +1,5 @@
 # Data-Driven Businesses with SQL & Tableau
-### Help an e-commerce company make a critical business decisions by exploring data in SQL and visualizing it interactively in a Tableau dashboard.
+### Help an e-commerce company make a critical business decision by exploring data in SQL and visualizing it interactively in a Tableau dashboard.
 
 ![grafik](../main/picture_repository.png)
  
