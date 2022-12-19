@@ -79,7 +79,7 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - Transpose business challenge into analytical questioning
 - Visualisazions with Tableau
 
-## Basic Steps for this project
+## Basic Steps for this Project
 1. Create the database out of the Database dump file by importing in MySQL Workbench
 2. Explore the dataset and the relations of the tables:    
   - How many orders have been placed at the marketplace? 
