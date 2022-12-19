@@ -15,9 +15,13 @@ But not everyone in the company is happy moving on with this. There are two main
 Thankfully, Olist has allowed Eniac to access a snapshot of their database. The data might have the answer to these concerns.
 
 ## Goal
-Main business questions the board of directors is searching an answer for in the data are: 
-1. is the brazilian online marketplace "Magist" a good fit for high-end tech products, especially for Apple-compatible accessories? 
+Main business questions the board of directors is expecting data based answers:   
+1. Is the brazilian online marketplace "Magist" a good fit for high-end tech products, especially for Apple-compatible accessories? 
 2. Are deliveries fast enough?
+
+More specific business questions: 
+
+
 
 ## Dataset
 - The dataset is made available by [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)and has been provided by [Olist](https://olist.com/pt-br/), the largest department store in Brazilian marketplaces. 
