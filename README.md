@@ -93,6 +93,12 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 4. Perform queries on answering the companies two main business challenges
 5. Make first visualisation in Tableau 
 
+## Graphs in Tableau: 
+- [Cross Monthly Customer Spend](https://public.tableau.com/views/CrossMonthlyCustomerSpenddelivered/CrossMonthlySpend?:language=de-DE&publish=yes&:display_count=n&:origin=viz_share_link)
+- [Customers Location](https://public.tableau.com/shared/PFYF8TS3W?:display_count=n&:origin=viz_share_link)
+- [Share of Tech Products](https://public.tableau.com/views/ShareofTechProducts/ShareofTechProducts?:language=de-DE&publish=yes&:display_count=n&:origin=viz_share_link)
+- [Top N Sellers](https://public.tableau.com/shared/57KMW89GB?:display_count=n&:origin=viz_share_link
+
 ## Files in this repository
 - [Dump file for setting up the database](../main/magist_dump.sql)
 - [SQL queries:explore dataset](../main/explore_dataset.sql)
