@@ -73,14 +73,14 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - order_reviews: customers can leave multiple reviews corresponding to the order they placed.
 
 ## Skills/Methods
-- SQL Queries with MySQL (Workbench):    
+- SQL Queries with MySQL (Workbench)  
 - JOIN multiple tables 
 - Translate business terms into tables, columns and aggregations.
 - Transpose business challenge into analytical questioning
 - Visualisazions with Tableau
 
 ## Basic Steps for this Project
-1. Create the database out of the Database dump file by importing in MySQL Workbench
+1. Create the database out of the Database dump file in MySQL Workbench
 2. Explore the dataset and the relations of the tables:    
   - How many orders have been placed at the marketplace? 
   - What are the relations of delivered, cancelled and unavailable orders? 
