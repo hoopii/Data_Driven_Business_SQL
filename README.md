@@ -26,6 +26,19 @@ In relation to the products:
 - What’s the average price of the products being sold?
 - Are expensive tech products popular?
 
+In relation to the sellers:
+- How many months of data are included in the magist database?
+- How many sellers are there? How many Tech sellers are there? What percentage of overall sellers are Tech sellers?
+- What is the total amount earned by all sellers? What is the total amount earned by all Tech sellers?
+- Can you work out the average monthly income of all sellers? Can you work out the average monthly income of Tech sellers?
+
+In relation to the delivery time:
+- What’s the average time between the order being placed and the product being delivered?
+- How many orders are delivered on time vs orders delivered with a delay?
+- Is there any pattern for delayed orders, e.g. big products being delayed more often?
+
+
+
 
 
 
