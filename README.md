@@ -50,7 +50,7 @@ In relation to the delivery time:
 
 ![grafik](../main/Schema.png)
 
-## Basic description of tables and their relations:  
+## Basic Description of Tables and their Relations:  
 
 **Let’s focus first of all on some tables that are just collections of items, independent of any transaction.  
 Unless a new customer makes a purchase, a new product is released, or a new seller is registered, these tables remain unchanged during a transaction:**
@@ -111,6 +111,6 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - [SQL queries:answer specific business questions](../main/business_questions.sql)
 - [5 minute presentation on answering main business challenge](../main/magist_presentation.odp)
 - [folder with csv files for all tables](../main/csv_files)
-- [folder with additional data and SQL scrip file for intermediate level SQL challenges](../main/challenge)
+- [folder with additional data and SQL scrip file for intermediate level SQL challenges](../main/challenges_advanced)
 *Note: Downloaded the data with the code of Brazilian States here: https://github.com/datasets-br/state-codescode_states and the CSV file 
 with "Table data import wizard from CSV"*
