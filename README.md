@@ -39,7 +39,7 @@ In relation to the delivery time:
 - Is there any pattern for delayed orders, e.g. big products being delayed more often?
 
 ## Dataset
-- The dataset is made available by [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)and has been provided by [Olist](https://olist.com/pt-br/), the largest department store in Brazilian marketplaces. 
+- The dataset is made available by [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and has been provided by [Olist](https://olist.com/pt-br/), the largest department store in Brazilian marketplaces. 
 - Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners. See more on our website: www.olist.com
 - The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. 
 - Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates. 
@@ -73,14 +73,14 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - order_reviews: customers can leave multiple reviews corresponding to the order they placed.
 
 ## Skills/Methods
-- SQL Queries with MySQL (Workbench):    
+- SQL Queries with MySQL (Workbench)  
 - JOIN multiple tables 
 - Translate business terms into tables, columns and aggregations.
 - Transpose business challenge into analytical questioning
 - Visualisazions with Tableau
 
 ## Basic Steps for this Project
-1. Create the database out of the Database dump file by importing in MySQL Workbench
+1. Create the database out of the Database dump file in MySQL Workbench
 2. Explore the dataset and the relations of the tables:    
   - How many orders have been placed at the marketplace? 
   - What are the relations of delivered, cancelled and unavailable orders? 
