@@ -73,25 +73,31 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - order_reviews: customers can leave multiple reviews corresponding to the order they placed.
 
 ## Skills/Methods
-- SQL Queries with MySQL (Workbench)  
+- SQL Queries with MySQL (Workbench)    
+       - Apply Window Functions
+       - Work with SQL Subqueries and Temporary Tables 
+       - Employ Stored Functions and Stored Procedures
+       - etc. 
 - JOIN multiple tables 
 - Translate business terms into tables, columns and aggregations.
 - Transpose business challenge into analytical questioning
 - Visualisazions with Tableau
+- Solve intermediate level SQL Challenges for Interview Preparation
 
 ## Basic Steps for this Project
 1. Create the database out of the Database dump file in MySQL Workbench
 2. Explore the dataset and the relations of the tables:    
-  - How many orders have been placed at the marketplace? 
-  - What are the relations of delivered, cancelled and unavailable orders? 
-  - Is the platform growing, are orders going up? 
-  - How many prodcuts and which product category do they offer the most?
-  - Which products have been ordered the most?
-  - What's the price for the most expensive and cheapes products? 
-  - What's the highest payment values for single orders? 
+     - How many orders have been placed at the marketplace? 
+     - What are the relations of delivered, cancelled and unavailable orders? 
+     - Is the platform growing, are orders going up? 
+     - How many prodcuts and which product category do they offer the most?
+     - Which products have been ordered the most?
+     - What's the price for the most expensive and cheapes products? 
+     - What's the highest payment values for single orders? 
 3. Answer specific business questions coming from different company members
 4. Perform queries on answering the companies two main business challenges
 5. Make first visualisation in Tableau 
+6. Bonus: Solve some intermediate level SQL Challenges using magist dataset
 
 ## Graphs in Tableau: 
 - [Cross Monthly Customer Spend](https://public.tableau.com/views/CrossMonthlyCustomerSpenddelivered/CrossMonthlySpend?:language=de-DE&publish=yes&:display_count=n&:origin=viz_share_link)
@@ -105,3 +111,6 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - [SQL queries:answer specific business questions](../main/business_questions.sql)
 - [5 minute presentation on answering main business challenge](../main/magist_presentation.odp)
 - [folder with csv files for all tables](../main/csv_files)
+- [folder with additional data and SQL scrip file for intermediate level SQL challenges](../main/challenge)
+*Note: Downloaded the data with the code of Brazilian States here: https://github.com/datasets-br/state-codescode_states and the CSV file 
+with "Table data import wizard from CSV"*
