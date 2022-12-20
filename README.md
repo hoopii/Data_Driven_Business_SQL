@@ -111,6 +111,6 @@ After an order is placed, a customer still needs to pay for it, then they can wr
 - [SQL queries:answer specific business questions](../main/business_questions.sql)
 - [5 minute presentation on answering main business challenge](../main/magist_presentation.odp)
 - [folder with csv files for all tables](../main/csv_files)
-- [folder with additional data and SQL scrip file for intermediate level SQL challenges](../main/challenges_advanced)
+- [folder with additional data and SQL scrip file for intermediate level SQL challenges](../main/challenges_advanced)   
 *Note: Downloaded the data with the code of Brazilian States here: https://github.com/datasets-br/state-codescode_states and the CSV file 
 with "Table data import wizard from CSV"*
